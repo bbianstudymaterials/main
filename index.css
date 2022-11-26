@@ -1,32 +1,80 @@
-.dropbtn {
+*{padding: 0; margin:0; box-sizing: border-box; font-family: sans-serif}
 
-  color: white;
-
+.nav1{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #222f3e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav1 i{
+    margin:0 5px;
 }
 
+.nav1 a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    background-color: #e67e22;
+}
+ .symbol{
+    width: 80px;
+ }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
-  z-index: 1;
+
+.nav2{
+    width: 100%;
+    height: 80px;
+    background: white;
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
 }
 
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('img1.jpg');
+    background-size: 100%;
+    
 }
 
+.h-text{
+    max-width: 600px;
+    color: white;
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
 
-.dropdown-content a:hover {background-color: #ddd;}
+.h-text h1{
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+}
+.h-text span{
+    color: #e67e22;
+    font-family: 'Dancing Script', cursive;
+}
+.h-text p{
+    font-size: 20px;
+    margin: 40px 0;
+    line-height: 30px;
 
-
-.dropdown:hover .dropdown-content {display: block;}
-
-
-
+}
+.h-text a{
+    text-decoration: none;
+    color: white;
+    background: #e67e22;
+    padding: 10px 20px;
+    margin:0 15px;
+    letter-spacing: 5px;
+}
